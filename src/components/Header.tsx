@@ -1,10 +1,11 @@
+"use client"
 import Link from 'next/link'
 import React, { useState } from 'react'
+import { IMenuProps } from '@/interface/IMenu'
 
 type Props = {}
 
 const Header = (props: Props) => {
-    const [nome, setNome] = useState<string>("")
     return (
         <header className='p-4 mx-40 flex justify-between'>
             <h1>
