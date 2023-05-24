@@ -1,4 +1,3 @@
-"use client"
 import Link from 'next/link'
 import React, { useState } from 'react'
 import { IMenuProps } from '@/interface/IMenu'
@@ -17,7 +16,7 @@ const Header = (props: Props) => {
                         <Link href={"/teste"} className='hover:text-violet-400 transition delay-100 ease-in-out'>teste</Link>
                     </li>
                     <li>
-                        <Link href={"/galeria"} className='hover:text-violet-400 transition delay-100 ease-in-out'>galeria</Link>
+                        <Link href={"/teams"} className='hover:text-violet-400 transition delay-100 ease-in-out'>teams</Link>
                     </li>
                 </ul>
             </menu>
@@ -27,7 +26,7 @@ const Header = (props: Props) => {
                         <Link href={"/teste"}>teste</Link>
                     </li>
                     <li>
-                        <Link href={"/galeria"}>galeria</Link>
+                        <Link href={"/teams"}>galeria</Link>
                     </li>
                 </ul>
             </aside>
