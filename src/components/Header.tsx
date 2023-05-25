@@ -16,7 +16,7 @@ const Header = (props: Props) => {
                         <Link href={"/teste"} className='hover:text-violet-400 transition delay-100 ease-in-out'>teste</Link>
                     </li>
                     <li>
-                        <Link href={"/teams"} className='hover:text-violet-400 transition delay-100 ease-in-out'>teams</Link>
+                        <Link href={"/movies"} className='hover:text-violet-400 transition delay-100 ease-in-out'>movies</Link>
                     </li>
                 </ul>
             </menu>
